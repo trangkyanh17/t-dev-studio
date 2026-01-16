@@ -1,0 +1,117 @@
+{
+  "header": {
+    "slogan": "Software, Done Right — For Every Platform"
+  },
+  "hero": {
+    "title": "T-Dev Studio",
+    "description": "Building cross-platform applications and tools with a strong focus on aesthetics, performance, and user experience.",
+    "cta": "Explore products"
+  },
+  "about": {
+    "title": "About",
+    "description": "T-Dev Studio builds thoughtfully designed software across multiple platforms. Each product emphasizes clarity, performance, and long-term usability — crafted to feel simple, reliable, and intentional.",
+    "principles": {
+      "quality": "Quality is placed at the core of every design and development decision.",
+      "design": "Clear, minimal design with a strong focus on user experience.",
+      "platform": "Cross-platform products built with consistent behavior and feel."
+    }
+  },
+  "donate": {
+    "title": "Support T-Dev Studio",
+    "description": "If T-Dev Studio tools are helpful to you, consider supporting the studio so it can continue building free, well-crafted software.",
+    "cta": {
+      "coffee": "Buy me a coffee",
+      "paypal": "Donate via PayPal"
+    },
+    "links": {
+      "coffee": "https://buymeacoffee.com/tdevstudio",
+      "paypal": "https://paypal.me/YOUR_NAME"
+    },
+    "bank": {
+      "name": "Bank: Agribank",
+      "account": "Account: 7901 88888 1988 – Hà Quang Tùng",
+      "note": "Note: Donate T-Dev Studio"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "actions": {
+      "viewDetails": "View details",
+      "download": "Download",
+      "github": "GitHub",
+      "docs": "Documentation"
+    },
+    "cta": {
+      "download": "Download",
+      "ready": "Ready to get started?",
+      "description": "Download and start using this product today. Built to be fast, reliable, and thoughtfully designed.",
+      "platforms": "Available for multiple platforms"
+    },
+    "platforms": {
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux"
+    },
+    "features": {
+      "fast": "Fast & lightweight",
+      "simple": "Easy to use",
+      "safe": "Safe & reliable"
+    },
+    "flashflow": {
+      "name": "FlashFlow",
+      "description": "A cross-platform ROM flashing tool for Windows, macOS, and Linux.",
+      "features": [
+        "Supports Windows, macOS, and Linux",
+        "Simple and streamlined flashing workflow",
+        "Automatic device and driver detection",
+        "Optimized for speed and stability"
+      ]
+    },
+    "fboard": {
+      "name": "FBoard",
+      "description": "A customizable keyboard designed for Android.",
+      "features": [
+        "Highly customizable keyboard layouts",
+        "Multiple languages and theme support",
+        "Lightweight, smooth, and battery-efficient",
+        "Designed with typing experience in mind"
+      ]
+    },
+    "macosFlasher": {
+      "name": "macOS Flasher",
+      "description": "An optimized ROM flashing tool built specifically for macOS.",
+      "features": [
+        "Purpose-built for macOS",
+        "Clean and easy-to-understand interface",
+        "Stable on Apple Silicon devices",
+        "Integrated and safe flashing workflow"
+      ]
+    },
+    "macos-flasher": {
+      "name": "macOS Flasher",
+      "description": "An optimized ROM flashing tool built specifically for macOS.",
+      "features": [
+        "Purpose-built for macOS",
+        "Clean and easy-to-understand interface",
+        "Stable on Apple Silicon devices",
+        "Integrated and safe flashing workflow"
+      ]
+    },
+    "ddrop": {
+      "name": "Ddrop",
+      "description": "Fast and seamless file transfer between Android and macOS.",
+      "features": [
+        "High-speed wireless file transfer",
+        "Instant connection between Android and macOS",
+        "No cables or complex setup required",
+        "Focused on simplicity and convenience"
+      ]
+    }
+  },
+  "footer": {
+    "support": "Support the studio",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} T-Dev Studio. All rights reserved."
+  }
+}
