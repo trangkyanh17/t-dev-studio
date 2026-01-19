@@ -17,8 +17,9 @@ export async function generateMetadata(
   }
 
   const title = `${product.name} — T-Dev Studio`;
+
   const description =
-    product.description ||
+    product.description[locale as "vi" | "en"] ??
     "A cross-platform tool built by T-Dev Studio.";
 
   return {

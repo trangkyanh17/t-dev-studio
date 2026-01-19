@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-neutral-600 dark:text-neutral-400">
               {/* Email */}
               <a
-                href="mailto:contact@tdev.studio"
+                href="mailto:tungninh88@gmail.com"
                 className="group relative inline-flex items-center gap-2 transition hover:text-neutral-900 dark:hover:text-neutral-100"
               >
                 <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -50,7 +50,7 @@ export default function Footer() {
 
               {/* Telegram */}
               <a
-                href="https://t.me/tdevstudio"
+                href="https://t.me/haquangtung"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center gap-2 transition hover:text-neutral-900 dark:hover:text-neutral-100"
@@ -67,7 +67,7 @@ export default function Footer() {
 
               {/* GitHub */}
               <a
-                href="https://github.com/tdevstudio"
+                href="https://github.com/cudin-etn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center gap-2 transition hover:text-neutral-900 dark:hover:text-neutral-100"

@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import Lottie from "lottie-react";
 import heroLottie from "@/public/lottie/hero2.json";
 import Donate from "@/components/Donate";
+import FloatingBack from "@/components/FloatingBack";
 
 import { notFound } from "next/navigation";
 import { useTranslations } from "next-intl";
@@ -12,48 +13,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 import { use } from "react";
-
-/**
- * Mock data – sau này có thể chuyển sang CMS / JSON / DB
- */
-const PRODUCTS = {
-  flashflow: {
-    key: "flashflow",
-    accent: "from-blue-500 to-cyan-500",
-    accentColor: "#22d3ee",
-    image: "/products/flashflow.png",
-    platforms: ["windows", "macos", "linux"],
-    features: ["fast", "simple", "safe"],
-    download: "#",
-  },
-  fboard: {
-    key: "fboard",
-    accent: "from-purple-500 to-pink-500",
-    accentColor: "#ec4899",
-    image: "/products/fboard.png",
-    platforms: ["windows", "macos", "linux"],
-    features: ["fast", "simple", "safe"],
-    download: "#",
-  },
-  "macos-flasher": {
-    key: "macos-flasher",
-    accent: "from-emerald-500 to-teal-500",
-    accentColor: "#10b981",
-    image: "/products/macos-flasher.png",
-    platforms: ["windows", "macos", "linux"],
-    features: ["fast", "simple", "safe"],
-    download: "#",
-  },
-  ddrop: {
-    key: "ddrop",
-    accent: "from-orange-500 to-amber-500",
-    accentColor: "#f59e0b",
-    image: "/products/ddrop.png",
-    platforms: ["windows", "macos", "linux"],
-    features: ["fast", "simple", "safe"],
-    download: "#",
-  },
-};
+import { PRODUCTS } from "@/lib/products";
 
 const container: Variants = {
   hidden: {},
@@ -86,10 +46,10 @@ type PageProps = {
     slug: string;
   }>;
 };
+
 export default function ProductDetailPage({ params }: PageProps) {
   const { slug } = use(params);
   const t = useTranslations("products");
-
 
   const product = PRODUCTS[slug as keyof typeof PRODUCTS];
 
@@ -99,6 +59,7 @@ export default function ProductDetailPage({ params }: PageProps) {
 
   return (
     <main className="relative overflow-hidden">
+      <FloatingBack />
       {/* HERO */}
       <motion.section
         variants={container}
@@ -139,20 +100,21 @@ export default function ProductDetailPage({ params }: PageProps) {
         <motion.div variants={item} className="mt-10 flex flex-wrap items-center gap-4">
           <a
             href={product.download}
-            className="relative inline-flex items-center justify-center rounded-full px-7 py-3 text-sm font-semibold text-white transition-all duration-300 hover:scale-[1.04]"
+            className="
+              relative inline-flex items-center justify-center
+              rounded-full px-7 py-2.5
+              text-sm font-semibold text-white
+              transition-all duration-300
+              hover:brightness-110
+            "
             style={{
-              backgroundImage: `linear-gradient(90deg, ${product.accentColor}, #ffffff33)`
+              backgroundImage: `
+                radial-gradient(circle at 30% 30%, ${product.accentColor} 0%, transparent 60%),
+                linear-gradient(180deg, ${product.accentColor}cc, ${product.accentColor}aa)
+              `,
             }}
           >
             {t("cta.download")}
-          </a>
-
-          <a
-            href="https://buymeacoffee.com/tdevstudio"
-            target="_blank"
-            className="text-sm font-medium text-neutral-500 underline-offset-4 hover:underline dark:text-neutral-400"
-          >
-            {t("cta.support")}
           </a>
 
           <div className="flex flex-wrap gap-2">
@@ -240,7 +202,7 @@ export default function ProductDetailPage({ params }: PageProps) {
       >
         <motion.div
           variants={item}
-          className="relative overflow-hidden rounded-3xl border border-neutral-200 bg-neutral-900 p-12 text-white dark:border-neutral-800"
+          className="relative overflow-hidden rounded-3xl border border-neutral-200 bg-transparent p-12 text-white dark:border-neutral-800"
         >
           {/* Gradient field (static intensity, animated flow only) */}
           <motion.div
@@ -250,8 +212,8 @@ export default function ProductDetailPage({ params }: PageProps) {
             transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
             style={{
               backgroundImage: `
-                linear-gradient(130deg, ${product.accentColor}dd 0%, transparent 55%),
-                linear-gradient(260deg, ${product.accentColor}aa 0%, transparent 60%)
+                radial-gradient(circle at 30% 30%, ${product.accentColor}cc 0%, transparent 65%),
+                linear-gradient(140deg, ${product.accentColor}99 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.85) 100%)
               `,
               backgroundSize: "200% 200%",
             }}
@@ -262,10 +224,10 @@ export default function ProductDetailPage({ params }: PageProps) {
               {t("cta.ready")}
             </h2>
 
-            <p className="mt-4 text-neutral-200">
+            <p className="mt-4 text-white/90">
               {t("cta.description")}
             </p>
-            <p className="mt-2 text-sm text-neutral-300">
+            <p className="mt-2 text-sm text-white/70">
               {t("cta.supportHint")}
             </p>
 

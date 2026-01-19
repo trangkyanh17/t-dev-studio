@@ -25,7 +25,7 @@
     },
     "links": {
       "coffee": "https://buymeacoffee.com/tdevstudio",
-      "paypal": "https://paypal.me/YOUR_NAME"
+      "paypal": "https://paypal.me/tdevstudio"
     },
     "bank": {
       "name": "Bank: Agribank",
@@ -45,36 +45,49 @@
       "download": "Download",
       "ready": "Ready to get started?",
       "description": "Download and start using this product today. Built to be fast, reliable, and thoughtfully designed.",
-      "platforms": "Available for multiple platforms"
+      "platforms": "Available for multiple platforms",
+      "support": "Support this project",
+      "supportHint": "If you find this product useful, you can support its development to help keep it free and well-maintained."
     },
     "platforms": {
       "windows": "Windows",
       "macos": "macOS",
-      "linux": "Linux"
+      "linux": "Linux",
+      "android": "Android"
     },
     "features": {
-      "fast": "Fast & lightweight",
-      "simple": "Easy to use",
-      "safe": "Safe & reliable"
+      "fast": "High performance and low latency",
+      "simple": "Clean, focused, and distraction-free",
+      "safe": "Stable, secure, and reliable",
+      "oneplus": "Full support for OnePlus devices",
+      "pixel": "Compatible with Google Pixel devices",
+      "xiaomi": "Support for Xiaomi devices",
+      "macOptimized": "Optimized specifically for macOS workflows",
+      "crossPlatform": "Runs seamlessly on Windows, macOS, and Linux",
+      "ultraFast": "Ultra-fast response with near-zero latency",
+      "minimal": "Minimal design focused on core functionality",
+      "privacy": "No tracking, no data collection, privacy-first by design",
+      "wireless": "Fast and stable wireless connectivity",
+      "powerful": "Powerful features designed for advanced users"
     },
     "flashflow": {
       "name": "FlashFlow",
-      "description": "A cross-platform ROM flashing tool for Windows, macOS, and Linux.",
+      "description": "A powerful cross-platform Android flashing tool supporting Pixel, OnePlus, and Xiaomi devices on Windows, macOS, and Linux.",
       "features": [
-        "Supports Windows, macOS, and Linux",
-        "Simple and streamlined flashing workflow",
-        "Automatic device and driver detection",
-        "Optimized for speed and stability"
+        "Unlock and relock bootloader",
+        "Flash stock ROM, OTA, AOSP, and super.img",
+        "Install custom recovery such as TWRP and OrangeFox",
+        "Optimized for speed and multi-device workflows"
       ]
     },
     "fboard": {
       "name": "FBoard",
-      "description": "A customizable keyboard designed for Android.",
+      "description": "A modern Android keyboard focused on speed, minimalism, and ultra-low latency typing.",
       "features": [
-        "Highly customizable keyboard layouts",
-        "Multiple languages and theme support",
-        "Lightweight, smooth, and battery-efficient",
-        "Designed with typing experience in mind"
+        "Ultra-low input latency",
+        "Clean and modern UI design",
+        "No unnecessary features or bloat",
+        "Optimized for fast and accurate typing"
       ]
     },
     "macosFlasher": {
@@ -89,22 +102,22 @@
     },
     "macos-flasher": {
       "name": "macOS Flasher",
-      "description": "An optimized ROM flashing tool built specifically for macOS.",
+      "description": "A macOS-focused flashing tool for OnePlus devices with full ROM and system-level support.",
       "features": [
-        "Purpose-built for macOS",
-        "Clean and easy-to-understand interface",
-        "Stable on Apple Silicon devices",
-        "Integrated and safe flashing workflow"
+        "Designed specifically for macOS",
+        "Flash Full OTA, AOSP, and super images",
+        "Debloat and modify system safely",
+        "Bootloader lock and unlock support"
       ]
     },
     "ddrop": {
       "name": "Ddrop",
-      "description": "Fast and seamless file transfer between Android and macOS.",
+      "description": "A fast and intuitive AirDrop-like experience for transferring files between Android and macOS.",
       "features": [
-        "High-speed wireless file transfer",
-        "Instant connection between Android and macOS",
-        "No cables or complex setup required",
-        "Focused on simplicity and convenience"
+        "Fast wireless file transfer",
+        "Seamless Android to macOS connection",
+        "Simple, visual-driven interface",
+        "No cables or complex setup required"
       ]
     }
   },

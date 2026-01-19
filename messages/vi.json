@@ -28,17 +28,37 @@
       "download": "Tải về",
       "ready": "Sẵn sàng bắt đầu?",
       "description": "Tải về và bắt đầu sử dụng sản phẩm ngay hôm nay. Được xây dựng để nhanh, ổn định và có thiết kế cẩn trọng.",
-      "platforms": "Hỗ trợ đa nền tảng"
+      "platforms": "Hỗ trợ đa nền tảng",
+      "support": "Ủng hộ dự án",
+      "supportHint": "Nếu sản phẩm hữu ích, bạn có thể ủng hộ để T-Dev Studio tiếp tục duy trì và phát triển."
     },
     "platforms": {
       "windows": "Windows",
       "macos": "macOS",
-      "linux": "Linux"
+      "linux": "Linux",
+      "android": "Android"
     },
     "features": {
-      "fast": "Nhanh & nhẹ",
-      "simple": "Dễ sử dụng",
-      "safe": "An toàn & ổn định"
+      "fast": "Nhanh & ổn định",
+      "simple": "Đơn giản, dễ dùng",
+      "safe": "An toàn cho thiết bị",
+      "oneplus": "Hỗ trợ chuyên sâu thiết bị OnePlus",
+      "pixel": "Hỗ trợ thiết bị Google Pixel",
+      "xiaomi": "Hỗ trợ thiết bị Xiaomi",
+      "bootloader": "Mở khóa & khóa lại bootloader an toàn",
+      "ota": "Hỗ trợ flash ROM OTA, Full OTA",
+      "super": "Flash ROM Super.img & AOSP",
+      "recovery": "Cài recovery tùy chỉnh (TWRP, OrangeFox)",
+      "crossPlatform": "Hoạt động trên Windows, macOS và Linux",
+      "macOptimized": "Tối ưu chuyên sâu cho macOS",
+      "debloat": "Debloat hệ thống gọn nhẹ, an toàn",
+      "airdropLike": "Truyền file nhanh tương tự AirDrop",
+      "lowLatency": "Độ trễ cực thấp, phản hồi tức thì khi gõ",
+      "ultraFast": "Siêu nhanh, độ trễ gần như bằng 0",
+      "minimal": "Thiết kế tối giản, tập trung vào cốt lõi",
+      "privacy": "Không thu thập dữ liệu, tôn trọng quyền riêng tư",
+      "powerful": "Mạnh mẽ, xử lý tác vụ phức tạp",
+      "wireless": "Kết nối không dây nhanh và ổn định"
     },
     "flashflow": {
       "name": "FlashFlow",
@@ -100,7 +120,7 @@
     },
     "links": {
       "coffee": "https://www.buymeacoffee.com/tdevstudio",
-      "paypal": "https://paypal.me/YOUR_NAME"
+      "paypal": "https://paypal.me/tdevstudio"
     },
     "bank": {
       "name": "Ngân hàng: Agribank",
